@@ -1,0 +1,16 @@
+
+#Attribution1 {cdisplay: none;}
+.returntoindex {
+    color: #cccccc;
+    font: normal bold 42px Roboto, sans-serif;
+    line-height: normal;
+    margin: 0 0 13px 0;
+    text-align: center;
+    width: 100%;
+}
+.PopularPosts h3.title {
+    font: normal bold 22px Roboto, sans-serif;
+}
+#blog-pager a {
+    font-size: 26px;
+}
