@@ -1,13 +1,14 @@
 # SEO fixes for Google Blogger Contempo template
 ## Current SEO issues with Contempo template
-Contempo template is adding one \<h1> heading to every blog page. The heading contains the name of the blog and in other than the index page, it link's back to the index. By default archive pages and search labels are not marked **noindex** causing a huge amount of duplicate content that has no relevance to search engines. There are meta tags missing for example for sharing on Twitter and Facebook, and the template does not specify the language of the blog.
-To fix these issues I have created an updated SEO friendly version of the template. You can view it live at my <a href="http://www.travel-blog.2globalnomads.info/">World travel blog</a>.
+Contempo template is adding one \<h1> heading to every blog page. The heading contains the name of the blog, and in other pages than the
+index page, it links back to the index. By default archive pages and search labels are not marked **noindex** causing a huge amount of duplicate content that has no relevance to search engines. There are meta tags missing for example for sharing on Twitter and on Facebook, and the template does not specify the language of the blog.
+To fix these issues, I have created an updated SEO friendly version of the template. You can view it live at my <a href="http://www.travel-blog.2globalnomads.info/">World travel blog</a>.
 ## Installation instructions
 1. Download the [template.xml](template.xml) and edit it
 2. Login to [Blogger](https://www.blogger.com)
 3. Select your blog and click **Template**
 4. Click **Backup/Restore**
-5. Browse template from your computer and click **Upload**
+5. Browse the template from your computer and click **Upload**
 6. Select **Theme**, **Customize**, **Advanced**, **Add CSS** and copy [custom.css](custom.css) to **Add custom CSS** field. Click **Apply to Blog**. 
 ## Issues
 #### Template has no AdSense support
