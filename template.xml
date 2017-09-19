@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.1.1' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.1.1' expr:dir='data:blog.languageDirection' lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
     <meta content='width=device-width, initial-scale=1' name='viewport'/>
     <title>
@@ -9,18 +9,14 @@
     <b:include data='blog' name='all-head-content'/>
     <meta content='summary_large_image' name='twitter:card'/>
     <meta content='article' property='og:type'/>
-    <link href='REPLACE_WITH_YOUR_GOOGLE_PLUS_PROFILE_URL' rel='publisher'/>
-    <meta content='REPLACE_WITH_YOUR_FACEBOOK_APP_ID' property='fb:app_id'/>
-    <meta content='REPLACE_WITH_YOUR_NAME' name='author'/>
-    <meta content='en' http-equiv='content-language'/>
+    <link href='https://plus.google.com/b/115803365763200470137/' rel='publisher'/>
+    <meta content='761212030725907' property='fb:app_id'/>
+    <meta content='Päivi and Santeri Kannisto' name='author'/>
+    <meta content='yOhOzcyiG0pY7uvOFTwbm7XTy7KByN4Xv5If-OcC4FU' name='google-site-verification'/>
+    <meta content='12D5C1C561D6A8DD2A5966F62FE15F47' name='msvalidate.01'/>
     <b:if cond='data:blog.pageType == &quot;archive&quot; or data:blog.searchQuery or data:blog.searchLabel'>
       <meta content='noindex,noarchive' name='robots'/>
     </b:if>
-<!-- 
-    * SEO fixes for Google Blogger Contempo template
-    * Template v0.1 (https://github.com/2globalnomads/blogger-contempo-template-with-seo/)
-    * Written by Santeri Kannisto (info@2globalnomads.info, https://www.2globalnomads.info)
--->
     <b:skin version='1.1.0'>
       <![CDATA[/*! normalize.css v3.0.1 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
         /*
@@ -62,7 +58,7 @@
         <Variable name="body.background" description="Background"
         color="$(body.background.color)"
         type="background"
-        default="$(color) none repeat scroll top left"  value="$(color) url(http://3.bp.blogspot.com/-LY8bkyuE8ls/WYpqgwrPGEI/AAAAAAAAOYE/mirbyMLIyPYSWHi0FMgoyl1wJduXKgs8gCK4BGAYYCw/s1600/P%25C3%25A4ivi-Kannisto-and-Santeri-Kannisto.jpg) repeat scroll top center"/>
+        default="$(color) none repeat scroll top left"  value="$(color) url(http://4.bp.blogspot.com/-SLYJvaMGTqE/Wb-VSKjSLPI/AAAAAAAAOfI/fNLe5RMhzUIc-1h14Pw0HYsmglyQDduqgCK4BGAYYCw/s0/Paivi-and-Santeri-Kannisto-lightest.jpg) repeat scroll top left"/>
         <Variable name="body.background.color" description="Body background color"
         type="color"
         default="#eee"  value="#eeeeee"/>
@@ -91,7 +87,7 @@
         <Group description="Blog title" selector="div.widget.Header">
         <Variable name="blog.title.font" description="Font"
         type="font"
-        default="$(robotoBold45)"  value="normal bold 42px Roboto, sans-serif"/>
+        default="$(robotoBold45)"  value="normal bold 38px Roboto, sans-serif"/>
         <Variable name="blog.title.color" description="Color"
         type="color"
         default="#fff"  value="#ffffff"/>
@@ -106,7 +102,7 @@
         type="font"
         family="$(robotoNormal15.family)"
         size="$(robotoNormal15.size)"
-        default="700 normal $(size) $(family)"  value="700 normal $(size) $(family)"/>
+        default="700 normal $(size) $(family)"  value="normal normal 100px normal 15px Roboto, sans-serif"/>
         <Variable name="tabs.color" description="Text color"
         type="color"
         default="#ccc"  value="#cccccc"/>
@@ -130,10 +126,10 @@
         default="#212121"  value="#212121"/>
         <Variable name="posts.title.font" description="Post title font"
         type="font"
-        default="$(robotoBold22)"  value="normal bold 46px Roboto, sans-serif"/>
+        default="$(robotoBold22)"  value="normal bold 28px Roboto, sans-serif"/>
         <Variable name="posts.stream.title.font" description="Post title stream font"
         type="font"
-        default="$(robotoBold30)"  value="normal bold 30px Roboto, sans-serif"/>
+        default="$(robotoBold30)"  value="normal bold 24px Roboto, sans-serif"/>
         <Variable name="posts.text.font" description="Post text font"
         type="font"
         default="$(body.text.font)"  value="15px Roboto, sans-serif"/>
@@ -289,9 +285,9 @@
         <Variable name="sidebar.width" description="Sidebar width" type="length"
         min="100px" max="1000px" default="284px"  value="360px"/>
         <Variable name="content.width" description="Content width" type="length"
-        min="600px" max="2400px" default="922px"  value="922px"/>
+        min="600px" max="2400px" default="922px"  value="800px"/>
         <Variable name="content.margin" description="Content margin" type="length"
-        min="0px" max="1000px" default="117px"  value="117px"/>
+        min="0px" max="1000px" default="117px"  value="178px"/>
         </Group>
         */
         
@@ -3241,8 +3237,6 @@
         margin-left: 40px;
         }
         }
-        #Attribution1 {display: none;}
-        
         .returntoindex, .returntoindex a {
         color: #cccccc;
         font: normal bold 22px Roboto, sans-serif;
@@ -3252,12 +3246,15 @@
         text-align: center;
         width: 100%;
         }
-        
         .PopularPosts h3.title {
-        font: normal bold 22px Roboto, sans-serif;
+        font: normal bold 28px Roboto, sans-serif;
         }
         #blog-pager a {
-        font-size: 26px;
+        font-size: 22px;
+        }
+        .flat-button {
+        font-weight: normal;
+        text-transform: none;
         }]]>
     </b:skin>
     <b:template-skin>
@@ -3675,7 +3672,7 @@
                           <b:class cond='data:this.imagePlacement == &quot;REPLACE&quot;' name='replaced'/>
                           <b:if cond='data:view.isSingleItem'>
                             <a expr:href='data:blog.homepageUrl'>
-                              <h3 class='returntoindex'>Home</h3>
+                              <h3 class='returntoindex'>World travel blog</h3>
                             </a>
                             <b:else/>
                             <b:include name='super.title'/>
@@ -3808,7 +3805,7 @@
                   </div>
                 </b:if>
                 <b:section class='main' id='page_body' name='Page Body' showaddelement='false'>
-                  <b:widget id='FeaturedPost1' locked='false' title='' type='FeaturedPost' visible='false'>
+                  <b:widget cond='data:blog.url == data:blog.homepageUrl' id='FeaturedPost1' locked='false' title='' type='FeaturedPost' version='2' visible='true'>
                     <b:widget-settings>
                       <b:widget-setting name='showSnippet'>true</b:widget-setting>
                       <b:widget-setting name='showPostTitle'>true</b:widget-setting>
@@ -3823,14 +3820,14 @@
                     </b:includable>
                     <b:includable id='commentsLink'>
                       <a class='comment-link' expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
-                        <b:include data='{ iconClass: &quot;touch-icon&quot; }' name='commentIcon'/>
                         <span class='num_comments'>
                           <b:if cond='data:post.numberOfComments &gt; 0'>
+                            <b:include data='{ iconClass: &quot;touch-icon&quot; }' name='commentIcon'/>
                             <b:message name='messages.numberOfComments'>
                               <b:param expr:value='data:post.numberOfComments' name='numComments'/>
                             </b:message>
                             <b:else/>
-                            <data:messages.postAComment/>
+                            <!--                <data:messages.postAComment/> -->
                           </b:if>
                         </span>
                       </a>
@@ -3898,6 +3895,7 @@
                       <b:widget-setting name='showShareButtons'>true</b:widget-setting>
                       <b:widget-setting name='showCommentLink'>true</b:widget-setting>
                       <b:widget-setting name='style.urlcolor'>#2196f3</b:widget-setting>
+                      <b:widget-setting name='postLocationLabel'>In</b:widget-setting>
                       <b:widget-setting name='showAuthor'>false</b:widget-setting>
                       <b:widget-setting name='style.linkcolor'>#757575</b:widget-setting>
                       <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
@@ -3907,7 +3905,7 @@
                       <b:widget-setting name='style.layout'>1x1</b:widget-setting>
                       <b:widget-setting name='showLabels'>true</b:widget-setting>
                       <b:widget-setting name='showLocation'>true</b:widget-setting>
-                      <b:widget-setting name='postLabelsLabel'>Read more:</b:widget-setting>
+                      <b:widget-setting name='postLabelsLabel'>Read more about</b:widget-setting>
                       <b:widget-setting name='showTimestamp'>true</b:widget-setting>
                       <b:widget-setting name='postsPerAd'>1</b:widget-setting>
                       <b:widget-setting name='showBacklinks'>true</b:widget-setting>
@@ -4090,14 +4088,14 @@
                     </b:includable>
                     <b:includable id='commentsLink'>
                       <a class='comment-link' expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
-                        <b:include data='{ iconClass: &quot;touch-icon&quot; }' name='commentIcon'/>
                         <span class='num_comments'>
                           <b:if cond='data:post.numberOfComments &gt; 0'>
+                            <b:include data='{ iconClass: &quot;touch-icon&quot; }' name='commentIcon'/>
                             <b:message name='messages.numberOfComments'>
                               <b:param expr:value='data:post.numberOfComments' name='numComments'/>
                             </b:message>
                             <b:else/>
-                            <data:messages.postAComment/>
+                            <!-- <data:messages.postAComment/> -->
                           </b:if>
                         </span>
                       </a>
@@ -4237,11 +4235,11 @@
                     </b:includable>
                     <b:includable id='postFooterJumpLink'>
                       <b:comment>Ripple, and show &#39;keep reading&#39; as the default.</b:comment>
-                      <div class='jump-link flat-button ripple'>
-                        <a expr:href='data:post.hasJumpLink ? data:post.url fragment &quot;more&quot; : data:post.url' expr:title='data:post.title'>
-                          <data:blog.jumpLinkMessage/>
+                      <div class='jump-link flat-button ripple'>Read
+                        <a expr:href='data:post.url' expr:title='data:post.title'>
+                          <data:post.title/>
                         </a>
-                      </div>
+                        &amp;hellip;</div>
                     </b:includable>
                     <b:includable id='postHeader' var='post'>
                       <b:include name='headerByline'/>
@@ -4357,12 +4355,12 @@
                       </section>
                     </b:includable>
                   </b:widget>
-                  <b:widget id='PopularPosts1' locked='true' title='Popular posts' type='PopularPosts' version='2' visible='true'>
+                  <b:widget cond='data:view.isSingleItem' id='PopularPosts1' locked='true' title='The most popular posts' type='PopularPosts' version='2' visible='true'>
                     <b:widget-settings>
                       <b:widget-setting name='numItemsToShow'>10</b:widget-setting>
                       <b:widget-setting name='showThumbnails'>true</b:widget-setting>
                       <b:widget-setting name='showSnippets'>true</b:widget-setting>
-                      <b:widget-setting name='timeRange'>LAST_MONTH</b:widget-setting>
+                      <b:widget-setting name='timeRange'>ALL_TIME</b:widget-setting>
                     </b:widget-settings>
                     <b:includable id='main' var='this'>
                       <b:comment>Default the title to &#39;Popular posts from this blog&#39;.</b:comment>
@@ -4399,11 +4397,11 @@
                     </b:includable>
                     <b:includable id='postFooterJumpLink'>
                       <b:comment>Ripple, and show &#39;keep reading&#39; as the default.</b:comment>
-                      <div class='jump-link flat-button ripple'>
-                        <a expr:href='data:post.hasJumpLink ? data:post.url fragment &quot;more&quot; : data:post.url' expr:title='data:post.title'>
-                          <data:blog.jumpLinkMessage/>
+                      <div class='jump-link flat-button ripple'>Read
+                        <a expr:href='data:post.url' expr:title='data:post.title'>
+                          <data:post.title/>
                         </a>
-                      </div>
+                        &amp;hellip;</div>
                     </b:includable>
                     <b:includable id='postJumpLink'>
                       <b:comment>Overridden, and migrated to postFooter. Called as postFooterJumpLink.</b:comment>
@@ -4439,40 +4437,6 @@
               </main>
             </div>
             <b:section class='footer' id='footer' name='Footer' showaddelement='false' tag='footer'>
-              <b:widget id='Attribution1' locked='true' title='' type='Attribution' visible='true'>
-                <b:widget-settings>
-                  <b:widget-setting name='copyright'/>
-                </b:widget-settings>
-                <b:includable id='main' var='this'>
-                  <div class='widget-content'>
-                    <div class='blogger'>
-                      <a expr:href='data:bloggerUrl'>
-                        <b:include name='flatBloggerIcon'/>
-                        <b:message name='messages.poweredByBlogger'/>
-                      </a>
-                    </div>
-                    <b:if cond='data:imageAuthor'>
-                      <div class='image-attribution'>
-                        <b:if cond='data:imageAuthor.url'>
-                          <b:message name='messages.templateImagesByLink'>
-                            <b:param expr:value='data:imageAuthor.url'/>
-                            <b:param expr:value='data:imageAuthor.name'/>
-                          </b:message>
-                          <b:else/>
-                          <b:message name='messages.templateImagesBy'>
-                            <b:param expr:value='data:imageAuthor.name'/>
-                          </b:message>
-                        </b:if>
-                      </div>
-                    </b:if>
-                    <b:if cond='data:copyright != &quot;&quot;'>
-                      <div class='copyright'>
-                        <data:copyright/>
-                      </div>
-                    </b:if>
-                  </div>
-                </b:includable>
-              </b:widget>
               <b:widget id='HTML2' locked='false' title='' type='HTML' visible='true'>
                 <b:widget-settings>
                   <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
@@ -4508,165 +4472,33 @@
       </div>
       <div class='sidebar_top_wrapper'>
         <b:class cond='data:widgets none w =&gt; w.sectionId == &quot;sidebar_top&quot;' name='no-items'/>
-        <b:section class='sidebar_top' id='sidebar_top' name='Sidebar (Top)'>
-          <b:widget id='Profile1' locked='true' title='Contributors' type='Profile' visible='false'>
-            <b:widget-settings>
-              <b:widget-setting name='showaboutme'>true</b:widget-setting>
-              <b:widget-setting name='showlocation'>false</b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main' var='this'>
-              <div class='wrapper'>
-                <b:class cond='!data:this.team' name='solo'/>
-                <b:comment>No title for single profiles. Default to &#39;Blog authors&#39; for team.</b:comment>
-                <b:with value='data:messages.blogAuthors' var='defaultTitle'>
-                  <b:include cond='data:this.team' name='widget-title'/>
-                </b:with>
-                <b:include name='content'/>
-              </div>
-            </b:includable>
-            <b:includable id='authorProfileImage'>
-              <img class='profile-img' expr:alt='data:messages.myPhoto' expr:height='data:authorPhoto.height' expr:src='data:authorPhoto.image' expr:width='data:authorPhoto.width'/>
-            </b:includable>
-            <b:includable id='content'>
-              <b:if cond='data:team'>
-                <div class='widget-content team'>
-                  <b:include name='teamProfile'/>
-                </div>
-                <b:else/>
-                <div class='widget-content individual'>
-                  <b:include name='userProfile'/>
-                </div>
-              </b:if>
-            </b:includable>
-            <b:includable id='defaultProfileImage'>
-              <div class='default-avatar-wrapper'>
-                <b:include data='{ iconClass: &quot;avatar-icon&quot; }' name='defaultAvatarIcon'/>
-              </div>
-            </b:includable>
-            <b:includable id='profileImage'>
-              <b:if cond='data:authorPhoto.image'>
-                <b:include name='authorProfileImage'/>
-                <b:else/>
-                <b:include name='defaultProfileImage'/>
-              </b:if>
-            </b:includable>
-            <b:includable id='teamProfile'>
-              <ul>
-                <b:loop values='data:authors' var='author'>
-                  <li>
-                    <div class='team-member'>
-                      <b:include data='author' name='teamProfileLink'/>
-                    </div>
-                  </li>
-                </b:loop>
-              </ul>
-            </b:includable>
-            <b:includable id='teamProfileLink'>
-              <a class='profile-link g-profile' expr:href='data:userUrl' expr:style='&quot;background-image: url(&quot; + data:profileLogo + &quot;);&quot;'>
-                <b:include name='profileImage'/>
-                <span class='profile-name'>
-                  <data:display-name/>
-                </span>
-              </a>
-            </b:includable>
-            <b:includable id='userGoogleProfile'>
-              <div class='g-follow' data-annotation='bubble' data-height='20' expr:data-href='data:userUrl'/>
-            </b:includable>
-            <b:includable id='userLocation'>
-              <dd class='profile-data location'>
-                <data:location/>
-              </dd>
-            </b:includable>
-            <b:includable id='userProfile'>
-              <b:include name='userProfileImage'/>
-              <b:include name='userProfileInfo'/>
-            </b:includable>
-            <b:includable id='userProfileData'>
-              <dt class='profile-data'>
-                <b:include name='userProfileLink'/>
-                <b:include cond='data:hasgoogleprofile' name='userGoogleProfile'/>
-              </dt>
-            </b:includable>
-            <b:includable id='userProfileImage'>
-              <a expr:href='data:userUrl'>
-                <b:include name='profileImage'/>
-              </a>
-            </b:includable>
-            <b:includable id='userProfileInfo'>
-              <div class='profile-info'>
-                <dl class='profile-datablock'>
-                  <b:class cond='data:showlocation and data:location != &quot;&quot;' name='has-location'/>
-                  <b:include name='userProfileData'/>
-                  <b:include cond='data:showlocation and data:location != &quot;&quot;' name='userLocation'/>
-                  <b:include cond='data:aboutme != &quot;&quot;' name='userProfileText'/>
-                </dl>
-                <b:include name='viewProfileLink'/>
-              </div>
-            </b:includable>
-            <b:includable id='userProfileLink'>
-              <a class='profile-link g-profile' expr:href='data:userUrl' rel='author'>
-                <data:displayname/>
-              </a>
-            </b:includable>
-            <b:includable id='userProfileText'>
-              <dd class='profile-textblock profile-snippet snippet-container r-snippet-container'>
-                <div class='snippet-item r-snippetized'>
-                  <data:aboutme/>
-                </div>
-                <div class='snippet-fade r-snippet-fade hidden'/>
-              </dd>
-            </b:includable>
-            <b:includable id='viewProfileLink'>
-              <b:comment>Change link to &#39;visit profile&#39;</b:comment>
-              <a class='profile-link visit-profile pill-button' expr:href='data:userUrl' rel='author'>
-                <data:messages.visitProfile/>
-              </a>
-            </b:includable>
-          </b:widget>
-        </b:section>
+        <b:section class='sidebar_top' id='sidebar_top' name='Sidebar (Top)'/>
       </div>
       <b:section class='sidebar_bottom' id='sidebar_bottom' name='Sidebar (Bottom)' preferred='yes'>
-        <b:widget id='Image1' locked='false' title='' type='Image' visible='true'>
+        <b:widget id='Text1' locked='false' title='' type='Text' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='displayUrl'>http://1.bp.blogspot.com/-yBcJEZ379DQ/WYprPUbXptI/AAAAAAAAOYM/SUPdVpTdFoggzkIxR9HbTV_aWdM27Nr1ACK4BGAYYCw/s1600/2-global-nomads.png</b:widget-setting>
-            <b:widget-setting name='displayHeight'>71</b:widget-setting>
-            <b:widget-setting name='sectionWidth'>340</b:widget-setting>
-            <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-            <b:widget-setting name='displayWidth'>320</b:widget-setting>
-            <b:widget-setting name='link'>https://www.2globalnomads.info</b:widget-setting>
-            <b:widget-setting name='caption'/>
+            <b:widget-setting name='content'>
+              <![CDATA[<a href="https://www.2globalnomads.info/" title="Visit our website 2 Global Nomads"><img alt="2 Global Nomads logo" src="http://1.bp.blogspot.com/-yBcJEZ379DQ/WYprPUbXptI/AAAAAAAAOYM/SUPdVpTdFoggzkIxR9HbTV_aWdM27Nr1ACK4BGAYYCw/s1600/2-global-nomads.png" /></a>]]>
+            </b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
             <b:include name='widget-title'/>
-            <b:include name='content'/>
-          </b:includable>
-          <b:includable id='content'>
             <div class='widget-content'>
-              <b:tag cond='data:link' expr:href='data:link' name='a'>
-                <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'>
-                  <b:attr cond='data:sourceSet' expr:value='data:sourceSet' name='srcset'/>
-                </img>
-              </b:tag>
-              <br/>
-              <b:if cond='data:caption'>
-                <span class='caption'>
-                  <data:caption/>
-                </span>
-              </b:if>
+              <data:content/>
             </div>
           </b:includable>
         </b:widget>
-        <b:widget id='LinkList1' locked='false' title='Highlights' type='LinkList' visible='true'>
+        <b:widget cond='data:blog.url == data:blog.homepageUrl' id='LinkList1' locked='false' title='Highlights' type='LinkList' visible='true'>
           <b:widget-settings>
             <b:widget-setting name='text-9'>2005 Samba Carnival In Rio de Janeiro</b:widget-setting>
-            <b:widget-setting name='link-9'>http://paivisanteri.blogspot.com/2005/02/822005-samba-carnival-in-rio-de-janeiro.html</b:widget-setting>
+            <b:widget-setting name='link-9'>/2005/02/822005-samba-carnival-in-rio-de-janeiro.html</b:widget-setting>
             <b:widget-setting name='text-8'>2006 Rainbow Gathering in Russia</b:widget-setting>
-            <b:widget-setting name='link-7'>http://paivisanteri.blogspot.com/2006/08/trans-siberian-railway-russia.html</b:widget-setting>
-            <b:widget-setting name='link-8'>http://paivisanteri.blogspot.com/2006/07/karelia-russia-russian-rainbow.html</b:widget-setting>
-            <b:widget-setting name='link-5'>http://paivisanteri.blogspot.com/2007/02/temples-of-angkor-cambodia.html</b:widget-setting>
-            <b:widget-setting name='link-6'>http://paivisanteri.blogspot.com/2006/08/antaiji-zen-temple-japan.html</b:widget-setting>
-            <b:widget-setting name='link-3'>http://paivisanteri.blogspot.com/2008/12/french-cheese-france-fromage.html</b:widget-setting>
-            <b:widget-setting name='link-4'>http://paivisanteri.blogspot.com/2007/10/holy-and-mysterious-tibet.html</b:widget-setting>
+            <b:widget-setting name='link-7'>/2006/08/trans-siberian-railway-russia.html</b:widget-setting>
+            <b:widget-setting name='link-8'>/2006/07/karelia-russia-russian-rainbow.html</b:widget-setting>
+            <b:widget-setting name='link-5'>/2007/02/temples-of-angkor-cambodia.html</b:widget-setting>
+            <b:widget-setting name='link-6'>/2006/08/antaiji-zen-temple-japan.html</b:widget-setting>
+            <b:widget-setting name='link-3'>/2008/12/french-cheese-france-fromage.html</b:widget-setting>
+            <b:widget-setting name='link-4'>/2007/10/holy-and-mysterious-tibet.html</b:widget-setting>
             <b:widget-setting name='text-1'>2013 Hiking in the Darién Gap</b:widget-setting>
             <b:widget-setting name='text-0'>2016 Travelling Georgian Military Highway</b:widget-setting>
             <b:widget-setting name='text-3'>2008 Cheese Pilgrimage in France</b:widget-setting>
@@ -4676,9 +4508,9 @@
             <b:widget-setting name='text-7'>2006 Trans-Siberian Railway in Russia</b:widget-setting>
             <b:widget-setting name='text-6'>2006 Antaiji Zen Monastery in Japan</b:widget-setting>
             <b:widget-setting name='sorting'>NONE</b:widget-setting>
-            <b:widget-setting name='link-1'>http://paivisanteri.blogspot.com/2013/04/documentary-film-crossing-darien-gap.html</b:widget-setting>
-            <b:widget-setting name='link-2'>http://paivisanteri.blogspot.com/2010/04/our-puppy-daycare-service.html</b:widget-setting>
-            <b:widget-setting name='link-0'>http://www.travel-blog.2globalnomads.info/2016/11/Travelling-Georgian-Military-Road-Invasion-Highway.html</b:widget-setting>
+            <b:widget-setting name='link-1'>/2013/04/documentary-film-crossing-darien-gap.html</b:widget-setting>
+            <b:widget-setting name='link-2'>/2010/04/our-puppy-daycare-service.html</b:widget-setting>
+            <b:widget-setting name='link-0'>/2016/11/Travelling-Georgian-Military-Road-Invasion-Highway.html</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
             <b:include name='widget-title'/>
@@ -4698,22 +4530,15 @@
             </div>
           </b:includable>
         </b:widget>
-        <b:widget id='ReportAbuse1' locked='true' title='' type='ReportAbuse' visible='false'>
-          <b:includable id='main'>
-            <b:include name='reportAbuse'/>
-          </b:includable>
-        </b:widget>
-        <b:widget id='LinkList2' locked='false' title='Links' type='LinkList' visible='true'>
+        <b:widget cond='data:blog.url == data:blog.homepageUrl' id='LinkList2' locked='false' title='Links' type='LinkList' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='link-3'>https://en.wikipedia.org/wiki/Global_nomad</b:widget-setting>
             <b:widget-setting name='sorting'>ALPHABETICAL</b:widget-setting>
-            <b:widget-setting name='text-1'>Nomad and travel books</b:widget-setting>
-            <b:widget-setting name='link-1'>https://www.books.2globalnomads.info/</b:widget-setting>
+            <b:widget-setting name='text-1'>Päivi Kanniston Kirjatohtori</b:widget-setting>
+            <b:widget-setting name='link-1'>http://kirjatohtori.blogspot.com/</b:widget-setting>
             <b:widget-setting name='text-0'>Free Web Design for Hotels/Hostels</b:widget-setting>
-            <b:widget-setting name='link-2'>http://kirjatohtori.blogspot.com/</b:widget-setting>
-            <b:widget-setting name='text-3'>What is a Global Nomad?</b:widget-setting>
+            <b:widget-setting name='link-2'>https://en.wikipedia.org/wiki/Global_nomad</b:widget-setting>
             <b:widget-setting name='link-0'>https://www.web-design.2globalnomads.info/</b:widget-setting>
-            <b:widget-setting name='text-2'>Päivi Kanniston Kirjatohtori</b:widget-setting>
+            <b:widget-setting name='text-2'>What is a Global Nomad?</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
             <b:include name='widget-title'/>
@@ -4733,9 +4558,9 @@
             </div>
           </b:includable>
         </b:widget>
-        <b:widget id='BlogArchive1' locked='false' title='Archives' type='BlogArchive' visible='true'>
+        <b:widget cond='data:blog.url == data:blog.homepageUrl' id='BlogArchive1' locked='false' title='Archives' type='BlogArchive' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='showStyle'>HIERARCHY</b:widget-setting>
+            <b:widget-setting name='showStyle'>MENU</b:widget-setting>
             <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
             <b:widget-setting name='showWeekEnd'>true</b:widget-setting>
             <b:widget-setting name='monthPattern'>MMMM yyyy</b:widget-setting>
@@ -4824,7 +4649,7 @@
         <b:widget id='Text2' locked='false' title='' type='Text' visible='true'>
           <b:widget-settings>
             <b:widget-setting name='content'>
-              <![CDATA[<a href="#" onmousedown="window.open(&quot;https://www.amazon.&quot; + &quot;com/gp/product/B00ACJAQQM/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00ACJAQQM&amp;linkCode=as2&amp;tag=2globalnomads-20&amp;linkId=d27eccc9a0fe501e96a294b8dbb4a077&quot;, &quot;_blank&quot;, &quot;resizable,location,menubar,toolbar,scrollbars,status&quot;);" rel="nofollow" title="Read Free as a Global Nomad"><img alt="The book cover of Free as a Global Nomad" src="http://2.bp.blogspot.com/-aRa_NRHs_Nk/WYu900HVTRI/AAAAAAAAOZQ/_NWYqswmrOAavVdQHaCGOJTj9WFpk739ACK4BGAYYCw/s1600/free-as-a-global-nomads-220.jpg" / /></a>]]>
+              <![CDATA[<a href="#" onmousedown="window.open(&quot;https://www.amazon.&quot; + &quot;com/gp/product/B00ACJAQQM/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00ACJAQQM&amp;linkCode=as2&amp;tag=2globalnomads-20&amp;linkId=d27eccc9a0fe501e96a294b8dbb4a077&quot;, &quot;_blank&quot;, &quot;resizable,location,menubar,toolbar,scrollbars,status&quot;);" rel="nofollow" title="Read Free as a Global Nomad"><img alt="The book cover of Free as a Global Nomad" src="http://2.bp.blogspot.com/-aRa_NRHs_Nk/WYu900HVTRI/AAAAAAAAOZQ/_NWYqswmrOAavVdQHaCGOJTj9WFpk739ACK4BGAYYCw/s1600/free-as-a-global-nomads-220.jpg" /></a>]]>
             </b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
@@ -4834,7 +4659,7 @@
             </div>
           </b:includable>
         </b:widget>
-        <b:widget id='Followers1' locked='false' title='Blogger followers' type='Followers' visible='true'>
+        <b:widget cond='data:blog.url == data:blog.homepageUrl' id='Followers1' locked='false' title='Blogger followers' type='Followers' visible='true'>
           <b:widget-settings>
             <b:widget-setting name='borderColorTransparent'>true</b:widget-setting>
             <b:widget-setting name='useTemplateDefaultStyles'>true</b:widget-setting>
@@ -4866,6 +4691,7 @@
         </b:widget>
       </b:section>
     </aside>
-    <b:template-script async='true' name='indie' version='1.0.0'/>
+    <!-- Generates faulty html   <b:template-script async='true' name='indie' version='1.0.0'/> -->
+    <script async='' src='https://resources.blogblog.com/blogblog/data/res/3742035236-indie_compiled.js' type='text/javascript'/>
   </body>
 </html>
