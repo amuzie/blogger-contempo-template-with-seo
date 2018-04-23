@@ -2,7 +2,7 @@
 ## Current SEO issues with Contempo template
 Contempo template is adding one \<h1> heading to every blog page. The heading contains the name of the blog, and in other pages than the
 index page, it links back to the index. By default archive pages and search labels are not marked **noindex** causing a huge amount of duplicate content that has no relevance to search engines. There are meta tags missing for example for sharing on Twitter and on Facebook, and the template does not specify the language of the blog.
-To fix these issues, I have created an updated SEO friendly version of the template. You can view it live at my <a href="https://www.travel-blog.2globalnomads.info/">travel blog</a>.
+To fix these issues, I have created an updated SEO friendly version of the template. You can view it live at my <a href="https://paivisanteri.blogspot.com/">travel blog</a>.
 ## Installation instructions
 1. Download the [template.xml](template.xml) and edit it
 2. Login to [Blogger](https://www.blogger.com)
